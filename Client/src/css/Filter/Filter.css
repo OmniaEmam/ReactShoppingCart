@@ -1,0 +1,31 @@
+.Filter-Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  border: solid 2px #71c5df;
+}
+.Filter-Wrapper .Filter-Title {
+  display: block;
+  background-color: #71c5df;
+  color: white;
+  padding: 3px 0 3px 7px;
+}
+.Filter-Wrapper .Num-Of-Products {
+  font-size: 18px;
+  padding: 3px 0px 10px 7px;
+}
+.Filter-Wrapper .Filter-By-Siza {
+  padding: 3px 0px 20px 7px;
+}
+.Filter-Wrapper .Filter-By-Siza span {
+  font-weight: 400;
+}
+.Filter-Wrapper .Filter-By-Siza .Filter-Select {
+  display: block;
+  height: 40px;
+  background-color: white;
+  border: 2px solid rgb(171, 180, 255);
+  width: 90%;
+  border-radius: 5px;
+  margin: 10px;
+}
