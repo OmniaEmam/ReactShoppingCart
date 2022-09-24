@@ -12,6 +12,7 @@
   height: 200px;
   padding: 2px;
   border: 2px solid #71c5df;
+  border-radius: 10px;
 }
 
 .product-description {
@@ -29,7 +30,7 @@ button {
   background-color: blue;
   color: white;
   padding: 7px;
-  border-radius: 2px;
+  border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
 }
