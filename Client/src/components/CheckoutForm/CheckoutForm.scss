@@ -1,0 +1,48 @@
+.checkout-form
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(155, 170, 252);
+
+    form
+    {
+       width: 60%;
+       margin: auto;
+
+       > div 
+       {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+       }
+
+       input
+       {
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px;
+       }
+
+       .form-button
+       {
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+       }
+
+       .form-button:hover{
+        background-color: rgb(57, 57, 255);
+       }
+    }
+    .close-icon
+       {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 25px;
+        cursor: pointer;
+       }
+}

@@ -2,6 +2,29 @@
   width: 70%;
   margin: 20px auto;
 }
+.cart-wrapper .cart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin: 50px;
+  box-shadow: 2px 2px 5px 2px #c0c0c0;
+  border-radius: 10px;
+}
+.cart-wrapper .total {
+  margin-left: 15px;
+  font-size: 20px;
+}
+.cart-wrapper .total-button {
+  background-color: blue;
+  color: white;
+  width: 160px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.cart-wrapper .total-button:hover {
+  background-color: rgb(57, 57, 255);
+}
 
 .cart-title {
   padding-bottom: 5px;
