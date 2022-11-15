@@ -5,6 +5,9 @@ import data from "./data.json";
 import Products from './components/Products/Products';
 import Filter from './components/Filter/Filter';
 import Cart from './components/Cart/Cart';
+import {Provider} from 'react-redux';
+import store from './store/store';
+
 
 function App() {
   //basics
@@ -71,7 +74,8 @@ function App() {
   
   //Main 
   return (
-      <div className="layout">
+      <Provider store={store}>
+        <div className="layout">
         <Header />
 
         <main>
@@ -94,6 +98,7 @@ function App() {
 
         <Footer />
       </div>
+      </Provider>
   );
 }
 
